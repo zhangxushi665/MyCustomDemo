@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义rangeSeekBar-->
+    <declare-styleable name="RangeSeekBar">
+
+        <!--区间条的高度-->
+        <attr name="line_height" format="dimension"/>
+        <!--区间条左右的边的间隔度-->
+        <attr name="line_margin" format="dimension"/>
+
+        <!--区间的最小值-->
+        <attr name="line_min" format="string"/>
+        <!--区间最大值-->
+        <attr name="line_max" format="string"/>
+        <!--区间数字的大小-->
+        <attr name="line_tv_size" format="dimension"/>
+        <!--平均分为几等份-->
+        <attr name="line_mode" format="integer"/>
+        <!--两个滑块之间的最小距离-->
+        <attr name="line_two_reverse" format="integer"/>
+        <!--字体距离上面滑块的距离-->
+        <attr name="line_tv_margin_top" format="dimension"/>
+
+        <!--滑块的图片-->
+        <attr name="sb_icon_id" format="reference"/>
+        <!--滑块宽高-->
+        <attr name="sb_icon_hw" format="dimension"/>
+
+
+    </declare-styleable>
+</resources>

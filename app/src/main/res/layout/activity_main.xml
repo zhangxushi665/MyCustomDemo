@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+
+    <com.zj.mycustomdemo.RangeSeekBar
+        android:id="@+id/rsb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:line_height="10dp"
+        app:line_margin="20dp"
+        app:line_mode="5"
+        app:line_tv_margin_top="15dp"
+        app:line_tv_size="12sp"
+        app:sb_icon_hw="25dp"
+        app:sb_icon_id="@drawable/seekbar_thumb"
+        app:line_two_reverse="1"
+    />
+
+
+</LinearLayout>
